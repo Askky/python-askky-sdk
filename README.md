@@ -13,12 +13,24 @@ $ pip install askky
 ```
 
 ## Usage
-
-You need to setup your key using the following:
-You can find your Private Api key at <http://app.askky.co/account/>.
+Get your Private Api key from <http://app.askky.co/account/>.
 
 ```py
-import askky
-client = askky.Client()
+from askky.client import Client
+client = askky.Client("<YOUR_API_KEY>")
 ```
+## Trigger Form
+
+After setting up client, you need to trigger your concerned survey/campaign/form :
+
+```py
+client.trigger_survey(survey_id="<YOUR_SURVEY_ID>",user_id=[<"List of userIds you want to trigger the survey for">])
+```
+
+Example:
+
+```py
+client.trigger_survey(survey_id="abc",user_id=["123","1234"])
+```
+
 

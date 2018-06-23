@@ -1,7 +1,7 @@
 from setuptools import setup
 setup(
     name="askky",
-    version="0.1",
+    version="1.1",
     description="Askky Python Client",
     url="https://github.com/Askky/python-askky-sdk.git",
     author="Team Askky",

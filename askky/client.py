@@ -11,7 +11,7 @@ class Client:
         trigger specific survey for a user
         Args:
             survey_id : Id of the Survey that you want to call
-            user_id : Id of the user to whom you want to show the Survey
+            user_id : List of Ids of the user to whom you want to show the Survey
         Returns:
             Success Response Dict
         """
