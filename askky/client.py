@@ -22,7 +22,7 @@ class Client:
         data["privateKey"] = self.privateKey
         data["campaignId"] = survey_id
         data["userId"] = user_id
-        print ('data',json.dumps(data))
+        
         headers = {'Content-Type': 'application/json'}
         response = requests.post(url,data=str(json.dumps(data)),headers=headers)
 

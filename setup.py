@@ -1,11 +1,11 @@
 from setuptools import setup
 setup(
     name="askky",
-    version="1.1",
+    version="1.2",
     description="Askky Python Client",
     url="https://github.com/Askky/python-askky-sdk.git",
     author="Team Askky",
-    author_email="hello@razorpay.com",
+    author_email="hello@askky.co",
     license="MIT",
     install_requires=["requests"],
     include_package_data=True,
